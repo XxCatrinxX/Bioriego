@@ -1,0 +1,55 @@
+/* globales */
+.icono{
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+}
+
+.secciones {
+    background-image: linear-gradient(to bottom, #80f65e 0%, #01c700 100%);
+    margin-bottom: 50px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: -28px 28px 33px -10px rgba(0,0,0,0.75);
+}
+
+h2 {
+    background-color: rgba(255, 248, 229, 0.951);
+    margin: 15px 100px;
+    border: solid;
+}
+
+.parrafos {
+    margin: 16px 16px;
+    text-align: justify;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: solid;
+    line-height: 1;
+    font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif;
+}
+
+/* mision */
+.mision {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* vision */ 
+.vision {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+/* valores */
+.valores {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
