@@ -17,9 +17,12 @@ html{
 }
 
 body {
-    background-image: linear-gradient(to bottom, #bbf8f4 0%, var(--blanco) 100%);
+    background-color: #bbf8f4;
     padding: 0;
     margin: 0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
 }
 
 h1, h2, h3{
@@ -251,12 +254,78 @@ h1, h2, h3{
 }
 */
 /* footer */
-
-.footer {
-    text-align: center;
-    margin: 50px;
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px 8%;
+    margin: 80px 0;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #b5b0b0 50%, #000000 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.social-icons-container, .footer-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-image: url(../img/facebook.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.social-icon:hover {
+    background-color: #01c700;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2) {
+    background-image: url(../img/instagram.png);
+}
+.social-icon:nth-of-type(3) {
+    background-image: url(../img/gorjeo.png);
+}
+.social-icon:nth-of-type(4) {
+    background-image: url(../img/whatsapp.png);
+}
+
+.footer-menu-container {
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+}
+
+.menu-item {
+    margin: 10px 15px;
+    cursor: default;
+    opacity: 0.6;
+}
+
+.menu-item:hover {
+    opacity: 1;
+}
+
+.copyright {
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+
+}
+
+/* */
 .hide {
     display: none;
   }
