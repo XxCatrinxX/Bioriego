@@ -69,7 +69,8 @@ h1, h2, h3{
 /* navegacion */
 .contenedor{
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 30px auto;
+    
 }
 
 .nav-bg{
@@ -152,7 +153,7 @@ h1, h2, h3{
    border-radius: 15px;
    box-shadow: 25px 35px 23px -4px rgba(0,0,0,0.75);
    margin-bottom: 20px;
-   padding: 10px;
+   padding: 20px;
    font-size: large;
 }
 
