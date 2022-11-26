@@ -19,13 +19,13 @@
     <section class="hero">
       <div class="contenido-hero">
         <h1 class="TT titulo"><i> Bioriego. </i></h1>
-        <img class="img-hero" src="/img/colegio.png" alt="colegio">
+        <img class="img-hero" src="../Bioriego/img/colegio.png" alt="colegio">
         <br>
     <p class="letras">       
      Escuela: Politecnico Ing. Jorge Matute Remus
     </p>    
 
-    <img class="img-hero" src="/img/mapa.png" alt="mapa">
+    <img class="img-hero" src="../Bioriego/img/mapa.png" alt="mapa">
     <p class="letras">         
       Guadalajara, Jalisco. 
     </p>
@@ -41,7 +41,7 @@
  
   <section class="servicio">
       <div class="iconos">
-        <img src="/img/pregunta.png" alt="riego">
+        <img src="../Bioriego/img/pregunta.png" alt="riego">
       </div>
         <h3> ¿Que es Bioriego? </h3>
           <p>
@@ -53,7 +53,7 @@
 
   <section class="servicio">
       <div class="iconos">
-        <img src="/img/sistema-de-riego.png" alt="sistema de riego">
+        <img src="../Bioriego/img/sistema-de-riego.png" alt="sistema de riego">
       </div>
         <h3> ¿Como funciona? </h3>
           <p>
@@ -64,7 +64,7 @@
       
   <section class="servicio">
       <div class="iconos">
-        <img src="/img/atencion.png" alt="mas-informacion">
+        <img src="../Bioriego/img/atencion.png" alt="mas-informacion">
       </div>  
         <h3> ¿Cual es nuestro objetivo? </h3>
         <p>
@@ -75,6 +75,46 @@
   </section>
 
     </div>
+
+  <section class="contacto">
+      <h2>Contacto.</h2>
+  
+      <form method="post" class="formulario" action="contacto.php">
+        <fieldset>
+          <legend>Contactanos Llenando Los Campos Siguientes</legend>
+      
+    <div class="contenedor-campos">
+  
+        <div class="campo">
+          <label>Nombre</label>
+          <input class="input-text" type="text" name="nombre" placeholder="Nombre" required>
+        </div>
+  
+        <div class="campo">
+          <label>Telefono</label>
+          <input class="input-text" type="tel" name="telefono" placeholder="Telefono" required>
+        </div>
+  
+        <div class="campo">
+          <label>Correo Personal</label>
+          <input class="input-text" type="email" name="correo" placeholder="Correo" required>
+        </div>
+  
+        <div class="campo">
+          <label>Mensaje</label>
+          <textarea class="input-text" name="mensaje" placeholder="Escribe Tu Mensaje" required></textarea>
+        </div>
+  
+        <div class="enviar">
+          <input class="boton" type="submit" value="Enviar" name="enviar">
+        </div>
+   
+    </div>
+   
+       </fieldset>
+      </form>
+  
+  </section>
 
 
 </main>  

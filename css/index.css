@@ -186,7 +186,10 @@ h1, h2, h3{
     width: 120px;
 }
 
-/* Contacto 
+/* Contacto */
+.contacto {
+    margin-top: 100px;
+}
 
 .form {
     padding: 40px;
@@ -194,7 +197,7 @@ h1, h2, h3{
 
 .formulario {
     background-color: #adadad;
-    width: min( 600px, 100% ); /* utiliza el valor mas pequeño 
+    width: min( 600px, 100% ); /* utiliza el valor mas pequeño */
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
@@ -212,8 +215,8 @@ h1, h2, h3{
     font-weight: 700;
     margin-bottom: 20px;
 }
-*/
-/* Campos 
+
+/* Campos */
 
 @media (min-width: 768px) { 
     .contenedor-campos {
@@ -253,7 +256,7 @@ h1, h2, h3{
 .enviar .boton {
     width: 100%;
 }
-*/
+
 /* footer */
 footer {
     width: 100%;
